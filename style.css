@@ -13,16 +13,16 @@ Well hello there, happy to see you.
 
 */
 
-/* =Import Entypo font for icons (http://www.entypo.com)
+/* =Import LightCustom icon font (http://www.entypo.com & FontAwesome)
 -------------------------------------------------------------- */
 
 @font-face {
-    font-family: 'EntypoRegular';
-    src: url('fonts/entypo-webfont.eot');
-    src: url('fonts/entypo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/entypo-webfont.woff') format('woff'),
-         url('fonts/entypo-webfont.ttf') format('truetype'),
-         url('fonts/entypo-webfont.svg#EntypoRegular') format('svg');
+    font-family: 'LightCustom';
+    src: url('fonts/light.eot');
+    src: url('fonts/light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/light.woff') format('woff'),
+         url('fonts/light.ttf') format('truetype'),
+         url('fonts/light.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -479,12 +479,12 @@ body {
 	position: absolute;
 	top:10px;
 	right:0;
-	padding:0 10px 5px;
+	padding:5px 10px 5px;
 }
 #masthead .menu-toggle:before {
-	content:"i";
-	font-size:50px;
-	line-height:30px;
+	content:"\2630";
+	font-size:26px;
+	line-height: 26px;
 }
 
 /* =Content
@@ -610,29 +610,27 @@ footer.entry-meta .sep {
 	text-indent:-9999em;
 }
 .icon:before {
-	vertical-align: -4px;
+	vertical-align: -2px;
 	color:#454545;
-	font-family: "EntypoRegular", sans-serif;
-	font-size:38px;
-	font-size:3.8rem;
-	line-height:1.3rem;
+	font-family: "LightCustom", sans-serif;
+	font-size:20px;
+	font-size:2.0rem;
 	margin:0 2px 0 0;
-	height:2px;
 }
 .icon:hover:before {
 	color: #000;
 }
 .comments-link:before {
-	content: "9";
+	content: "\e720";
 }
 .cat-links:before {
-	content: "l";
+	content: "\1f4c4";
 }
 .tag-links:before {
-	content: "C";
+	content: "\e70d";
 }
 .edit-link:before {
-	content: "&";
+	content: '\270e';
 }
 .page-links {
 	clear: both;

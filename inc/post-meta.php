@@ -21,6 +21,14 @@ function light_add_post_meta_boxes() {
 		'side',									// Context
 		'low'									// Priority
 	);
+	add_meta_box(
+		'light-featured-image-meta',			// Unique ID
+		esc_html__( 'Thumbnail Meta', 'light' ),// Title
+		'light_featured_meta_meta_box',			// Callback function
+		'page',									// Admin page (or post type)
+		'side',									// Context
+		'low'									// Priority
+	);
 }
 
 /* Display the post meta box. */

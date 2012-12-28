@@ -74,7 +74,7 @@ if ( ! function_exists( 'light_thumbnails' ) ):
  * @since Light 1.0
  */
 function light_thumbnails() {
-	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
 	add_image_size( 'header-thumbnail', 700, 190, true );
 	add_image_size( 'sidecar-thumbnail', 70, 70, true );
 }
