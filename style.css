@@ -604,7 +604,7 @@ footer.entry-meta a:hover {
 footer.entry-meta .sep {
 	margin:0 8px;
 }
-.post-date-meta span, .cat-links span, .tag-links span {
+.cat-links span, .tag-links span {
 	width:0;
 	display: inline-block;
 	text-indent:-9999em;
@@ -615,7 +615,7 @@ footer.entry-meta .sep {
 	font-family: "LightCustom", sans-serif;
 	font-size:20px;
 	font-size:2.0rem;
-	margin:0 2px 0 0;
+	margin:0 4px 0 0;
 }
 .icon:hover:before {
 	color: #000;
