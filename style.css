@@ -106,7 +106,7 @@ textarea {
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 200;
 	margin-bottom:.5em;
 }
@@ -443,7 +443,7 @@ body {
 ----------------------------------------------- */
 
 .main-navigation {
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	text-shadow: rgba(255,255,255,.8) 1px 1px;
 	margin-bottom:1.5em;
 }
@@ -500,7 +500,7 @@ body {
 }
 .entry-header {
 	border-bottom:1px solid #f1f1f1;
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	color:#555;
 	font-size:13px;
 	font-size:1.3rem;
@@ -588,7 +588,7 @@ a.more-link {
 }
 footer.entry-meta {
 	clear:both;
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-size:13px;
 	font-size:1.3rem;
 	border-top:1px solid #f1f1f1;
@@ -641,7 +641,7 @@ footer.entry-meta .sep {
 ----------------------------------------------- */
 
 aside {
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-size:1.3em;
 	font-size:1.3rem;
 	margin-bottom:1.5em;
@@ -780,7 +780,7 @@ object {
 	margin:0;
 }
 .nav-paging ul li {
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-size:13px;
 	font-size:1.3rem;
 	color:#555;
@@ -874,7 +874,7 @@ article.comment {
 	margin-bottom:.5em;
 }
 #respond, #submit {
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-weight:200;
 	text-shadow: #fff 1px 1px;
 }
@@ -933,7 +933,7 @@ article.comment {
 	font-size:14px;
 	font-size:1.4rem;
 	color:#555;
-	font-family: "Helvetica Nueue", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-weight:200;
 	padding:1.75em 0 1.5em;
 }
